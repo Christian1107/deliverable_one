@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600&display=swap');
+.aboutUsA {
+  text-decoration: none;
+  color: #88898B;
+}
+
+.whatA{
+  text-decoration: none;
+  color: #88898B;
+}
+.benefitsA{
+  text-decoration: none;
+  color: #88898B;
+}
+.ourA{
+  text-decoration: none;
+  color: #88898B;
+}
+.contactUsA {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FF4850;
+}
+.grid-item1 {
+
+  padding-left: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+
+}
+
+.redText{
+  color: #FF4850;
+}
+
+
+.grid-item3 {
+  width: 100%;
+  border: 1 px;
+  margin-left: 0 !important;
+  padding: 20px;
+  font-size: 25px;
+  text-align: left;
+  color: #88898B;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+.ul{
+  padding: 0;
+  margin:0;
+}
+#horizontal-list{
+  padding: 0;
+  margin: 0;
+}
+
+.contactUs{
+  width: 95%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  border-color: #FF4850;
+  background: #FF4850;
+}
+
+.grid-item4 {
+  width: 100%;
+  background-color: none;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 23px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
+
+.adoptingRed {
+  color: #FF4850;
+}
+
+.paragraph {
+  color: #88898B;
+  font-weight: 300;
+  font-size: 20;
+  padding-bottom: 30px;
+}
+
+.paragraph2 {
+  width: 95%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  border-color: #FF4850;
+  background: #FF4850;
+}
+
+.findA {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+@media (min-width: 768px){
+
+body {
+  background-image: url("bulldog.jpg");
+  background-size: cover;
+}
+.aboutUsA {
+  text-decoration: none;
+  color: #88898B;
+}
+
+.whatA{
+  text-decoration: none;
+  color: #88898B;
+}
+.benefitsA{
+  text-decoration: none;
+  color: #88898B;
+}
+.ourA{
+  text-decoration: none;
+  color: #88898B;
+}
+.contactUsA {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FF4850;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: none;
+  padding: 10px;
+}
+
+.grid-item1 {
+  background-color: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+
+}
+
+.redText{
+  color: #FF4850;
+}
+
+.grid-item2 {
+  background-color: none;
+  border: 0px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-item3 {
+  background-color: none;
+  border: 0px solid rgba(0, 0, 0, 0);
+  padding: 0px;
+  font-size: 25px;
+  text-align: center;
+  color: #88898B;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  display: inline;
+  padding: 10px 10px;
+}
+.contactUs{
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  border-color: #FF4850;
+  background: #FF4850;
+}
+
+ul#horizontal-list li{
+  display: inline;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: none;
+  padding: 10px;
+  margin-top: 180px;
+}
+
+.grid-item4 {
+  background-color: none;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 23px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
+
+.adoptingRed {
+  color: #FF4850;
+}
+
+.paragraph {
+  color: #88898B;
+  font-weight: 400;
+  font-size: 27;
+  padding-bottom: 30px;
+}
+
+.paragraph2 {
+  width: 20%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 20px;
+  border-color: #FF4850;
+  background: #FF4850;
+}
+
+.findA {
+  text-decoration: none;
+  color: white;
+}
+}
